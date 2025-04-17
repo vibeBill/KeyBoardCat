@@ -1,0 +1,9 @@
+venv
+
+build
+
+*.pyc
+
+dist
+
+__pycache__
