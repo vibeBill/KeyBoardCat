@@ -225,7 +225,7 @@ class DesktopPet:
 
     def set_interval(self):
         interval = simpledialog.askinteger(
-            "桌面宠物", 
+            "键盘猫猫", 
             "输入提醒间隔(分钟):", 
             parent=self.root,
             minvalue=1,
@@ -276,8 +276,8 @@ class DesktopPet:
                     self.owned_colors.append(new_color)
                     self.save_total_count()
                     messagebox.showinfo(
-                        "新颜色解锁",
-                        f"恭喜！你获得了新颜色：{COLORS[new_color]['name']} ({COLORS[new_color]['rarity']})",
+                        "键盘猫猫",
+                        f"人,\n感谢你的忘我工作,\n让我获得了新颜色:{COLORS[new_color]['name']} ({COLORS[new_color]['rarity']})",
                         parent=self.root
                     )
                 self.current_color = new_color
@@ -296,8 +296,8 @@ class DesktopPet:
 
     def show_reminder(self):
         messagebox.showinfo(
-            "桌面宠物", 
-            f"本次已敲击:{self.key_count}次\n总计敲击:{self.total_key_count}次\n该休息一下了!",
+            "键盘猫猫", 
+            f"人,\n你本次已敲击:{self.key_count}次\n总计敲击:{self.total_key_count}次\n该休息一下了!",
             parent=self.root
         )
 
