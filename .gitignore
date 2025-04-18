@@ -5,3 +5,7 @@ build
 *.spec
 
 dist
+
+__pycache__
+
+data
