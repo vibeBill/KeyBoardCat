@@ -2,8 +2,6 @@ venv
 
 build
 
-*.pyc
+*.spec
 
 dist
-
-__pycache__
