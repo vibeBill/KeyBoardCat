@@ -111,9 +111,9 @@ class DesktopPet:
             image = Image.new('RGB', (64, 64), color='black')
         
         self.tray_icon = pystray.Icon(
-            "DesktopPet",
+            "KeyboardCat",
             image,
-            "Desktop Pet",
+            "Keyboard Cat",
             menu=self.create_tray_menu()
         )
         
